@@ -1,5 +1,16 @@
 @extends('layouts.master')
 
+@section('inlineScripts')
+<script>
+    $(function(){
+        // ctrl+enter & cmd+enter sends message
+        $("#message").keydown(function (event) {
+            if( (event.metaKey || event.ctrlKey) && event.keyCode == 13) enviar();
+        });
+    });
+</script>
+@stop
+
 @section('content')
 
 <h1>Demo</h1>

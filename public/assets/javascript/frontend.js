@@ -68,12 +68,12 @@ function enviar()
     var message = $('#message').val();
     $('#message').val('');
     socket.send('{"action":"message","message":"'+message+'"}');
-    log('active', '<b>Me:</b>' + message);
+    log('active', '<b>Yo: </b>' + message);
 }
 
 function showMessage(data)
 {
-    log('', '<b>'+data.user.name+':</b>' + data.message);
+    log('', '<b>'+data.user.name+': </b>' + data.message);
 }
 
 function addUsers(data)
