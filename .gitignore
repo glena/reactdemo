@@ -20,5 +20,3 @@ app/config/local/twitter.php
 .vagrant/machines/default/virtualbox/index_uuid
 
 .vagrant/machines/default/virtualbox/synced_folders
-
-Homestead.yaml
