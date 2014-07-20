@@ -10,3 +10,15 @@ Thumbs.db
 /bower_components
 /node_modules
 app/config/local/twitter.php
+
+.vagrant/machines/default/virtualbox/action_set_name
+
+.vagrant/machines/default/virtualbox/action_provision
+
+.vagrant/machines/default/virtualbox/id
+
+.vagrant/machines/default/virtualbox/index_uuid
+
+.vagrant/machines/default/virtualbox/synced_folders
+
+Homestead.yaml
