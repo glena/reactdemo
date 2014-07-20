@@ -1,0 +1,17 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+
+authorize: /home/german/.ssh/id_rsa.pub
+
+keys:
+    - /home/german/.ssh/id_rsa
+
+folders:
+    - map: .
+      to: /home/vagrant/Code/twinalizer
+
+sites:
+    - map: twinalizer.app
+      to: /home/vagrant/Code/twinalizer/public
