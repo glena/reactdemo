@@ -15,6 +15,11 @@ http://germanlena.com.ar/reactdemo
 ### Config:
 
 * app.php: streams_port 7778
+* Add in your hosts file the following line
+
+```
+127.0.0.1 demoreact.app
+```
 
 ### To run:
 
@@ -34,7 +39,7 @@ cd ./Code/demoreact
 #sudo /usr/local/bin/composer self-update
 
 composer install
-php artisan tweets:serve
+php artisan rt:listen
 ```
 
 ### Homestead changes
