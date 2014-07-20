@@ -7,12 +7,16 @@
         $("#message").keydown(function (event) {
             if( (event.metaKey || event.ctrlKey) && event.keyCode == 13) enviar();
         });
+        // enter registers user
+        $("#username").keydown(function (event) {
+            if( event.keyCode == 13) register();
+        });
     });
 </script>
 @stop
 
 @section('content')
-
+<div class="bg"></div>
 <h1>Demo</h1>
 
 <div class="step step1">
@@ -57,5 +61,4 @@
         </div>
     </div>
 </div>
-
 @stop
