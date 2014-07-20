@@ -2,6 +2,10 @@
 
 Playing with Laravel, ReactPHP & Ratchet
 
+### Presentación
+
+http://germanlena.com.ar/reactdemo
+
 ### Links:
 * State pattern: http://es.wikipedia.org/wiki/State_(patr%C3%B3n_de_dise%C3%B1o)
 * Ratchet & Laravel: https://medium.com/laravel-4/laravel-4-real-time-chat-eaa550829538

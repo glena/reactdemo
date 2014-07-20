@@ -1,0 +1,34 @@
+.step {
+    display: none;
+}
+.step.step1 {
+    display: block;
+}
+
+.row
+{
+    margin-top: 10px;
+}
+.users {
+    margin: 0 1%;
+    width: 24%;
+}
+.data {
+    margin: 0 1%;
+    width: 72%;
+}
+
+table.users thead tr th {
+    padding: 8px;
+}
+
+@media (max-width: 600px) {
+    .users {
+        margin: 0 1%;
+        width: 98%;
+    }
+    .data {
+        margin: 0 1%;
+        width: 98%;
+    }
+}
