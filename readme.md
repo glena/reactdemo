@@ -1,6 +1,6 @@
 ## Demoreact
 
-Playing with Laravel, ReactPHP & Ratchet
+Playing with Laravel, ReactPHP & Ratchet. Demo para LaravelBA, meetup group de Laravel en Buenos Aires: http://laravelba.com.ar
 
 ### Presentación
 
