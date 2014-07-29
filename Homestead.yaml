@@ -3,10 +3,10 @@ ip: "192.168.10.10"
 memory: 2048
 cpus: 1
 
-authorize: /Users/pablochiappetti/.ssh/id_rsa.pub
+authorize: /home/german/.ssh/id_rsa.pub
 
 keys:
-    - /Users/pablochiappetti/.ssh/id_rsa
+    - /home/german/.ssh/id_rsa
 
 folders:
     - map: .
